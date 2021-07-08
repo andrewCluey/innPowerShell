@@ -1,3 +1,5 @@
 $subscriptions = Get-AzSubscription
 
-Get-AzRoleAssignment
+$assignments = Get-AzRoleAssignment
+   
+
