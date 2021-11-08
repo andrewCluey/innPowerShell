@@ -4,12 +4,12 @@ function Get-SubscriptionAssignments {
     )
     <#
         .SYNOPSIS
-        Gets all IAm role assignments for signed in to subscriptions.
+        Gets all IAM role assignments for all current authenticated subscriptions.
 
         .DESCRIPTION
 
         .PARAMETER exportFile
-        The path where the returned CSV file shoudl be saved.
+        The path where the returned CSV file should be saved.
 
         .EXAMPLE
         Get-SubscriptionAssignments -ExportFile "./assignments.csv"
